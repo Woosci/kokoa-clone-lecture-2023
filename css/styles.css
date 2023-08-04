@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.status-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.status__column {
+    width: 33%;
+}
+
+.status__column:first-child span{
+    margin-right:5px;
+}
+
+.status__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.status__column:last-child{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.status__column .fa-battery-full{
+    margin: 0px 5px;
+}
+
+
+
+
+
